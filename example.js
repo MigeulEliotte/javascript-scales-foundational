@@ -13,11 +13,11 @@ function find_area_square(length, width){
  * @return {number} the sum of all the numbers
 **/
 function sum_of_numbers(numbers){
-let array = [1,2,3,4,5];
-for(let i=0; i <= array.length; i++ ){
-    let x =+ array [0];
+    let x = 0;
+for(let i=0; i <= numbers.length; i++ ){
+let x =+ numbers [i];   
 }
-
+return (x);
 }
 
 
@@ -27,7 +27,12 @@ for(let i=0; i <= array.length; i++ ){
  * @return {number} the smaller of the number
 **/
 function find_smaller_number(a, b){
-
+if(a < b){
+return {a}
+    } 
+    else{
+        return {b}
+    }
 }
 
 
@@ -37,7 +42,14 @@ function find_smaller_number(a, b){
 **/
 
 function find_smallest_number(numbers){
-
+    let  x=numbers[i];
+    for(let i=0; i <= numbers.length; i++ ){
+      if(x>numbmers[i]){
+               x=numbers[i];
+                }
+                
+             }
+             return{x}
 }
 
 
@@ -50,6 +62,7 @@ function find_smallest_number(numbers){
 
 function abbreviate(word, length){
 
+
 }
 
 
@@ -60,7 +73,8 @@ function abbreviate(word, length){
 **/
 
 function get_full_name(first_name, last_name){
-
+    let fullname = last_name + ","+ first_name;
+return{fullname}
 }
 
 /**
