@@ -4,7 +4,7 @@
  * @return {number} the area of the square
 **/
 function find_area_square(length, width){
-
+    return length * width;
 }
 
 
